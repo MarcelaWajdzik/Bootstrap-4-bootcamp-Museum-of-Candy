@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f5d9d5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+section {
+    overflow: hidden;
+}
+
+/*nav*/
+
+#mainMenu.navbar {
+
+    font-size: 1.6rem;
+
+}
+
+#mainMenu .navbar-brand {
+    color: red;
+
+    font-size: 1.6rem;
+}
+
+
+
+#mainManeu button.navbar-toggler {
+    color: black;
+}
+
+#mainMenu .nav-link {
+
+    color: white;
+}
+
+#mainMenu .nav-link:hover {
+    color: red;
+}
+
+/*header*/
+
+#museum {
+    text-transform: uppercase;
+}
+
+#museum h1 {
+    font-size: 3rem;
+}
+
+#museum i.fa-candy-cane {
+    color: red;
+
+}
+
+
+/*main*/
+
+h2.candyTitle {
+    color: red;
+    font-size: 3rem;
+
+}
+
+.lead {
+    font-size: 1.4rem;
+    color: rgba(255, 0, 0, 0.342);
+}
+
+
+
+
+
+#mainMenu.scroll {
+    background-color: rgba(221, 160, 221, 0.801);
+    transition: 1s;
+}
+
+/*media*/
+@media(max-width:1200px) {
+    #museum h1 {
+        font-size: 2rem;
+
+    }
+
+    h2.candyTitle {
+
+        font-size: 1.8rem;
+
+    }
+
+    .lead {
+        font-size: 1.2rem;
+    }
+}
